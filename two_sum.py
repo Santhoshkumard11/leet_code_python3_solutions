@@ -18,3 +18,5 @@ Input
 Output
 [1,3]
 '''
+
+#code by santhoshGoku
