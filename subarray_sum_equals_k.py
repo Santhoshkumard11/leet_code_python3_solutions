@@ -12,7 +12,7 @@ def subarraySum(nums, k) -> int:
 
     #main loop
     for index,item in enumerate(nums) :
-        
+        #inner loop
         for i in range(index , length+1):
 
             temp_sum = sum(nums[index:i])
@@ -32,3 +32,4 @@ Input
 Output
 4
 '''
+#code by santhoshGoku
