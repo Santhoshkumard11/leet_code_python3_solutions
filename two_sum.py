@@ -5,7 +5,7 @@ def twoSum(nums, target):
     for item in range(nums_len):
         #inner loop
         for item2 in range(item+1, nums_len):
-
+            #condition check
             if nums[item] + nums[item2] == target :
                 
                 return [item,item2]
