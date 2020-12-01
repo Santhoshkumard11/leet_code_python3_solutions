@@ -1,7 +1,5 @@
 nums = [1,2,1,2,1]
 
-k = 3
-
 def subarraySum(nums, k) -> int:
     number_of_occurrence = 0
     length = len(nums)
